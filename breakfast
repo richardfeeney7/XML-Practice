@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> # Declaration
+<breakfast_menu> #Root element
+	<food>       #Child of root 
+		<name>Waffles</name> #Child of food
+		<price>€5.95</price> #Child of food
+		<description> Our Famous Waffles With Syrup</description> #Child of food
+		calories>650</calories> #Child of food
+	</food> # Close child element of root
+	
+	<food>  # Child element of root
+	    <name>Full Irish</name> #Child of food
+		<price>€9.59</price>    #Child of food
+		<description> Our Famous Irish Breakfast With Tea or Coffee</description>  #Child of food
+		calories>1000</calories>#Child of food
+	</food> # Close child element of root
+</breakfast_menu> #Close root element
